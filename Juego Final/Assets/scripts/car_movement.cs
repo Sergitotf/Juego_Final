@@ -13,11 +13,11 @@ public class car_movement : MonoBehaviour
     public GameObject Coche7;
     void Start()
     {
-        LeanTween.moveX(Coche1, 3, 0);
-        LeanTween.moveX(Coche2, 3, 0);
-        LeanTween.moveX(Coche3, -3, 0);
-        LeanTween.moveY(Coche4, 0, 3);
-        LeanTween.moveY(Coche5, 0, -3);
+        LeanTween.moveX(Coche1, 30, 15).setEase(LeanTweenType.easeInOutBack);
+        LeanTween.moveX(Coche2, 25, 15).setEase(LeanTweenType.easeInOutBack);
+        LeanTween.moveX(Coche3, -50, 15);
+        LeanTween.moveZ(Coche4, 40, 15);
+        LeanTween.moveZ(Coche5, -40, 15);
     }
 
     // Update is called once per frame
