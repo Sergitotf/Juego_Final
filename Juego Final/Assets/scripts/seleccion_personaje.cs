@@ -14,7 +14,7 @@ public class seleccion_personaje : MonoBehaviour
             if (transform.childCount > 0f)
             {
 
-                gameObject.transform.GetChild(Random.Range(0, 20)).gameObject.SetActive(true);
+                gameObject.transform.GetChild(Random.Range(0,20)).gameObject.SetActive(true);
                 
 
             }
@@ -22,7 +22,7 @@ public class seleccion_personaje : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            gameObject.SetActive(false);
         }
         
     }
