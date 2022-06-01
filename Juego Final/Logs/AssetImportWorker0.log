@@ -2031,3 +2031,4 @@ Received Import Request.
 Start importing Assets/scripts/Seleccion_jugador.cs using Guid(388e13fbb12d4dd428f2d242e8d22249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8e8c23e21121251ccff1205c9d0489') in 0.003026 seconds 
   Import took 0.004804 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

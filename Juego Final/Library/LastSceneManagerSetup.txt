@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PolygonTown/Scenes/Overview.unity
+- path: Assets/Scenes/Pantalla_principal.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
