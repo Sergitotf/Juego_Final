@@ -13,8 +13,8 @@ public class car_movement : MonoBehaviour
     public GameObject Coche7;
     void Start()
     {
-        LeanTween.moveX(Coche1, 30, 15).setEase(LeanTweenType.easeInOutBack);
-        LeanTween.moveX(Coche2, 25, 15).setEase(LeanTweenType.easeInOutBack);
+        LeanTween.moveX(Coche1, 80, 35);//.setEase(LeanTweenType.easeInOutBack);
+        LeanTween.moveX(Coche2, 50, 40);//.setEase(LeanTweenType.easeInOutBack);
         LeanTween.moveX(Coche3, -50, 15);
         LeanTween.moveZ(Coche4, 40, 15);
         LeanTween.moveZ(Coche5, -40, 15);
