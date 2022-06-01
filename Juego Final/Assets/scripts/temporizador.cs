@@ -13,6 +13,8 @@ public class temporizador : MonoBehaviour
     public GameObject escena2;
     public GameObject escenaprincipal;
     public bool desactivaprincipal = false;
+    public GameObject posExterior;
+    public GameObject posInterior;
     
     
     public void Awake()
@@ -36,7 +38,16 @@ public class temporizador : MonoBehaviour
         if (tiempo <= 0.0f)
         {
             tiempo = 0;
+            if (SceneManager.GetActiveScene().name == "Exterior")
+            {
+                posExterior.SetActive(true);
+            }
+            if (SceneManager.GetActiveScene().name == "Interior")
+            {
+                posInterior.SetActive(true);
+            }
             Destroy(gameObject);
+
         }
         
     }

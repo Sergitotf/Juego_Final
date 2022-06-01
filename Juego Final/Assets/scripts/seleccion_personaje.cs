@@ -5,16 +5,18 @@ using UnityEngine;
 public class seleccion_personaje : MonoBehaviour
 {
     public static seleccion_personaje instance;
+    public int indicewally;
     
     void Start()
     {
-        if(seleccion_personaje.instance == null)
+        indicewally = Random.Range(0, 20);
+        if (seleccion_personaje.instance == null)
         {
             instance = this;
             if (transform.childCount > 0f)
             {
 
-                gameObject.transform.GetChild(Random.Range(0,20)).gameObject.SetActive(true);
+                gameObject.transform.GetChild(indicewally).gameObject.SetActive(true);
                 
 
             }
