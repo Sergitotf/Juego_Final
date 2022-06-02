@@ -17,19 +17,7 @@ public class temporizador : MonoBehaviour
     public GameObject posInterior;
     
     
-    public void Awake()
-    {
-        if (escenaactiva == escena1)
-        {
-            //Destroy(gameObject);
-            SceneManager.LoadScene("escena2");
-        }
-        else if (escenaactiva == escena2)
-        {
-            SceneManager.LoadScene("escena1");
-        }
-        desactivaprincipal = escenaprincipal; 
-    }
+    
     public void Update()
     {
         

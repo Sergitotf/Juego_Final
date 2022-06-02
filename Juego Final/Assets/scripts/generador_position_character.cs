@@ -10,6 +10,8 @@ public class generador_position_character : MonoBehaviour
     public GameObject prefabpersonajes;
     public void OnEnable()
     {
+        nivel = nivel_actual.instance.nivel;
+        //crea numero de posiciones como tantos hijos tenga el array
         posicionesrellenar = nivel * 5;
 
         for(int x=0; x< transform.childCount; x++)
@@ -21,10 +23,17 @@ public class generador_position_character : MonoBehaviour
         Character_selector scriptWally = wally.GetComponent<Character_selector>();
 
         //deshabilita todos aquellos que no sean wally
+
         wally.transform.GetChild(scriptWally.indicepersonajeactivo).gameObject.SetActive(false);
+
         //habilita exclusivamente a wally
+
         wally.transform.GetChild(seleccion_personaje.instance.indicewally).gameObject.SetActive(true);
+        click_Character clickar = wally.transform.GetChild(seleccion_personaje.instance.indicewally).gameObject.GetComponent<click_Character>();
+        clickar.isWally = true;
+
         //mantiene las posiciones originales de los personajes, de forma que se quedan en los empty
+
         wally.transform.parent = posiciones[posicionaleatoria].transform;
         wally.transform.position = posiciones[posicionaleatoria].transform.position;
         Debug.Log("indice de wally: " + seleccion_personaje.instance.indicewally + "indice personaje activo: " + scriptWally.indicepersonajeactivo);
