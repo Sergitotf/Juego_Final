@@ -8,11 +8,14 @@ public class Character_selector : MonoBehaviour
     private GameObject personajeactivo;
     
     void OnEnable()
-    { // seleccion de un personaje random /= wally, nos servirá para los escondites.
-        indicepersonajeactivo = Random.Range(0, 20);
+    { 
+        
+        // seleccion de un personaje random /= wally, nos servirá para los escondites.
+
+        indicepersonajeactivo = Random.Range(0, 21);
         if(indicepersonajeactivo == seleccion_personaje.instance.indicewally)
         {
-            if (indicepersonajeactivo < 20)
+            if (indicepersonajeactivo < 21)
             {
                 indicepersonajeactivo++;
             }
@@ -22,6 +25,7 @@ public class Character_selector : MonoBehaviour
             }
         }
         personajeactivo = gameObject.transform.GetChild(indicepersonajeactivo).gameObject;
+        
         personajeactivo.SetActive(true);
         Debug.Log("activo" + personajeactivo);
     }
@@ -32,8 +36,4 @@ public class Character_selector : MonoBehaviour
     }
 
 
-    void Update()
-    {
-        
-    }
 }

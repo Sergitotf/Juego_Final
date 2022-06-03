@@ -4,14 +4,28 @@ using UnityEngine;
 
 public class generador_position_character : MonoBehaviour
 {
-    private int posicionesrellenar;
+    public int posicionesrellenar;
     public int nivel = 1;
     public GameObject[] posiciones;
     public GameObject prefabpersonajes;
+    public static generador_position_character instance;
+    public float TiempoTranscurrido;
+
+
+    public void Start()
+    {
+        TiempoTranscurrido = click_Character.instance.TiempoTranscurrido;
+    }
     public void OnEnable()
     {
+
+        
+        TiempoTranscurrido += Time.deltaTime;
+
         nivel = nivel_actual.instance.nivel;
+        
         //crea numero de posiciones como tantos hijos tenga el array
+
         posicionesrellenar = nivel * 5;
 
         for(int x=0; x< transform.childCount; x++)

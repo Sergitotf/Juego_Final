@@ -9,7 +9,9 @@ public class seleccion_personaje : MonoBehaviour
     
     void Start()
     {
-        indicewally = Random.Range(0, 20);
+        //activa a todos los personajes en la pantalla de wally
+
+        indicewally = Random.Range(0, 21);
         if (seleccion_personaje.instance == null)
         {
             instance = this;
