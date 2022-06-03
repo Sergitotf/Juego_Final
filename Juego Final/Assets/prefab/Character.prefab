@@ -165,6 +165,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &2335142268183078821
 AudioSource:
   m_ObjectHideFlags: 0
@@ -510,6 +511,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &7765151573068168868
 AudioSource:
   m_ObjectHideFlags: 0
@@ -771,6 +773,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &8539252019602896626
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1156,6 +1159,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &1806762436417900901
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1417,6 +1421,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &1579620082399542566
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1678,6 +1683,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &4332615536580254328
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1939,6 +1945,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &5373931575593060466
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2200,6 +2207,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &7941671544495948109
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2461,6 +2469,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &2959923652271124759
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2722,6 +2731,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &4351816884540826766
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2983,6 +2993,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &6030746470254046622
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3745,6 +3756,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &5149930006198583423
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4006,6 +4018,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &7745807910932335258
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4267,6 +4280,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &4780835438668350668
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4528,6 +4542,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &282966085286103642
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4789,6 +4804,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &2308759378248414607
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5050,6 +5066,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &8978150875210293790
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5311,6 +5328,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &7630622755772030729
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5572,6 +5590,7 @@ MonoBehaviour:
   AudioClick: {fileID: 2335142268183078821}
   Fallo: {fileID: 8300000, guid: 6d2a6791b8529bf4e9fd54c7ae1f27d1, type: 3}
   Acierto: {fileID: 8300000, guid: 80450a0e6ee065a4890a42bd639cd0e2, type: 3}
+  pantallaFail: {fileID: 2528299520114021008, guid: 7a32a53b13c225b479bfb6df47c62d77, type: 3}
 --- !u!82 &3323162121046240472
 AudioSource:
   m_ObjectHideFlags: 0

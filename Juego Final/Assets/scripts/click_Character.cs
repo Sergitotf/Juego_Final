@@ -11,10 +11,12 @@ public class click_Character : MonoBehaviour
     public AudioClip Fallo;
     public AudioClip Acierto;
     private int contaforfallos;
+    public GameObject pantallaFail;
 
     private void OnMouseDown()
     {
-       if(isWally)
+        pantallaFail.gameObject.SetActive(false);
+        if (isWally)
         {
            
             //aumenta un nivel cuando detecta el click en wally y reproduce sonido
@@ -34,6 +36,7 @@ public class click_Character : MonoBehaviour
             contaforfallos++;
             if (contaforfallos > 2)
             {
+                // pantallaFail.gameObject.SetActive(true);
                 SceneManager.LoadScene("Pantalla_principal");
             }
         }
